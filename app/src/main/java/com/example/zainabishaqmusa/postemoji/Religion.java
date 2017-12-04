@@ -22,10 +22,6 @@ import java.io.InputStream;
 public class Religion extends AppCompatActivity {
 
     private static final String AUTHORITY= "com.example.zainabishaqmusa.postemoji";
-    private static final Uri PROVIDER = Uri.parse("content://" + AUTHORITY);
-
-    private static String ASSET_PATHS;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
